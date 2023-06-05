@@ -205,3 +205,20 @@ $( document ).ready(function() {
   //--------------------------------
 
 });
+
+//Button to clear
+$("#clear").click(function(){
+  localStorage.clear();
+
+  //Set the page to display none as well
+  $("#hour-08 textarea").val("");
+  $("#hour-09 textarea").val("");
+  $("#hour-10 textarea").val("");
+  $("#hour-11 textarea").val("");
+  $("#hour-12 textarea").val("");
+  $("#hour-13 textarea").val("");
+  $("#hour-14 textarea").val("");
+  $("#hour-15 textarea").val("");
+  $("#hour-16 textarea").val("");
+  $("#hour-17 textarea").val("");
+});
